@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Flexbox</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        border: 5px solid black;
+        height: 100vh;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div style="flex: 1; width: 5em; background-color: yellow"></div>
+      <div style="flex: 3; width: 8em; background-color: blue"></div>
+      <div style="flex: 2; width: 3em; background-color: green"></div>
+    </main>
+  </body>
+</html>
